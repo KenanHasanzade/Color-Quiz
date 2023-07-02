@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container" >
+        <select name="" id="select">
+            <option value="60000">1 minute</option>
+            <option value="180000">3 minutes</option>
+            <option value="300000">5 minutes</option>
+            <option value="600000">10 minutes</option>
+        </select>
+        <button id="start" onclick="startGame()">Start</button>
+    </div>
+    <div class="timeOverModal">
+        <h1>Time Over</h1>
+        <h3 id="finalResult"></h3>
+        <button id="startAgain">Start Again</button>
+    </div>
+    <div class="quizColor" id="quizColor">
+        <div id="modalWindow">
+        </div>
+        <div id="colorRGB"  >COLOR</div>
+        <div id="result">Result: 0</div>
+        <div id="colors">
+            <button id="btn1"></button>
+            <button id="btn2"></button>
+            <button id="btn3"></button>
+            <button id="btn4"></button>
+            <button id="btn5"></button>
+            <button id="btn6"></button>
+        </div>
+    </div>
+ <script src="./main.js"></script>
+</body>
+</html>
